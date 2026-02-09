@@ -1,0 +1,59 @@
+# =====================
+# Environment variables / secrets
+# =====================
+.env
+.env.*
+*.env
+
+# API keys / credentials
+**/*key*.txt
+**/*secret*.txt
+**/secrets.*
+**/credentials.*
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =====================
+# Node / Frontend
+# =====================
+node_modules/
+dist/
+build/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Lock files (optional – keep if required)
+# =====================
+# uv.lock
+# package-lock.json
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
