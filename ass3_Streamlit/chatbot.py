@@ -1,10 +1,10 @@
 import streamlit as st
 from google import genai
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 # Initialize Gemini client
-# client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-client = genai.Client(api_key="AIzaSyBDJWRCD0rCFrKOfeHpn__vbOMfyb4XG04")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 st.set_page_config(page_title="Gemini Chatbot", page_icon="💬")
 st.title("Gemini Chatbot")

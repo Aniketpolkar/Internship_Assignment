@@ -1,0 +1,9 @@
+fastapi 
+uvicorn 
+pymongo 
+bcrypt==3.2.2 
+passlib==1.7.4
+pydantic[email]
+python-dotenv
+streamlit
+requests
